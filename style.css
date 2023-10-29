@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1300px;
+  padding-inline: 10px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+header {
+  margin-block: 12px;
+}
+
+.navbar-section {
+  justify-content: space-between;
+  font-family: "Assistant", sans-serif;
+}
+
+.myntra-logo img {
+  width: 50px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+}
+
+/* Searchbar */
+
+.searchicon {
+  padding: 10px;
+}
+
+.nav-inputBar i {
+  position: absolute;
+}
+
+.nav-inputBar input {
+  padding-left: 45px;
+  outline: none;
+}
+
+.nav-Searchinput {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f6;
+}
+
+.nav-right-side {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+
+.nav-right {
+  margin-right: 30px;
+}
